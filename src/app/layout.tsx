@@ -21,8 +21,8 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | COINSA Uniformes',
-    default: 'COINSA Uniformes - Catálogos y Cotizaciones',
+    template: '%s | PENTA Uniformes',
+    default: 'PENTA Uniformes - Catálogos y Cotizaciones',
   },
   description: 'Catálogos de uniformes empresariales de las mejores marcas. Cotiza uniformes para tu empresa con más de 20 años de experiencia en el mercado.',
   keywords: 'uniformes empresariales, catálogos de uniformes, cotización de uniformes, uniformes corporativos, uniformes de trabajo',
@@ -30,21 +30,21 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'es_MX',
     url: 'https://coinsauniformes.com/',
-    siteName: 'COINSA Uniformes',
-    title: 'COINSA Uniformes - Catálogos y Cotizaciones',
+    siteName: 'PENTA Uniformes',
+    title: 'PENTA Uniformes - Catálogos y Cotizaciones',
     description: 'Catálogos de uniformes empresariales de las mejores marcas. Cotiza uniformes para tu empresa con más de 20 años de experiencia en el mercado.',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'COINSA Uniformes',
+        alt: 'PENTA Uniformes',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'COINSA Uniformes - Catálogos y Cotizaciones',
+    title: 'PENTA Uniformes - Catálogos y Cotizaciones',
     description: 'Catálogos de uniformes empresariales de las mejores marcas. Cotiza uniformes para tu empresa con más de 20 años de experiencia en el mercado.',
     images: ['/og-image.jpg'],
     creator: '@coinsa',
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
-    title: 'COINSA Uniformes',
+    title: 'PENTA Uniformes',
   },
 };
 

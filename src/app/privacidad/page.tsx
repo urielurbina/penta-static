@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Aviso de Privacidad | COINSA',
-  description: 'Aviso de privacidad de COINSA Uniformes - Información sobre el manejo de datos personales',
+  title: 'Aviso de Privacidad | PENTA',
+  description: 'Aviso de privacidad de PENTA Uniformes - Información sobre el manejo de datos personales',
 }
 
 export default function PrivacyPolicy() {
@@ -19,7 +19,7 @@ export default function PrivacyPolicy() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Información que Recopilamos</h2>
             <p className="text-gray-600 mb-4">
-              En COINSA Uniformes, recopilamos información que usted nos proporciona directamente a través de nuestro formulario de contacto y otros canales de comunicación, incluyendo:
+              En PENTA Uniformes, recopilamos información que usted nos proporciona directamente a través de nuestro formulario de contacto y otros canales de comunicación, incluyendo:
             </p>
             <ul className="list-disc pl-6 text-gray-600 mb-4">
               <li>Nombre completo</li>

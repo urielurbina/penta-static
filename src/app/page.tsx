@@ -157,7 +157,7 @@ export default function Home() {
         catalog: formData.get('catalog') === 'on',
         wholesale: formData.get('wholesale') === 'on'
       },
-      source: 'COINSA'
+      source: 'PENTA'
     });
 
     const data = {
@@ -171,7 +171,7 @@ export default function Home() {
         catalog: formData.get('catalog') === 'on',
         wholesale: formData.get('wholesale') === 'on'
       },
-      source: 'COINSA'
+      source: 'PENTA'
     };
 
     try {
@@ -225,7 +225,7 @@ export default function Home() {
           <div className="absolute bottom-0 right-0 pointer-events-none w-full opacity-10 z-0">
             <img 
               src="/images/coinsa-texture.svg" 
-              alt="COINSA texture" 
+              alt="PENTA texture" 
               className="w-full h-full object-contain"
             />
           </div>
@@ -311,7 +311,7 @@ export default function Home() {
           <div className="absolute bottom-0 right-0 pointer-events-none w-full opacity-50">
             <img 
               src="/images/coinsa-texture.svg" 
-              alt="COINSA texture" 
+              alt="PENTA texture" 
               className="w-full h-full object-contain"
             />
           </div>
@@ -324,77 +324,77 @@ export default function Home() {
                 {[
                   { 
                     imageSrc: "/images/bigbangpdf.webp", 
-                    imageAlt: "Catalogo BigBang COINSA", 
+                    imageAlt: "Catalogo BigBang PENTA", 
                     title: "BigBang", 
                     externalLink: "https://drive.google.com/file/d/15ZsDmvg_ltUQsTUp8ulo7h81pQ5DuDi3/view?usp=drive_link",
                     chips: ["Camisas", "Pantalones", "Alta Visibilidad"]
                   },
                   { 
                     imageSrc: "/images/dickiespdf.webp", 
-                    imageAlt: "Catalogo Dickies COINSA", 
+                    imageAlt: "Catalogo Dickies PENTA", 
                     title: "Dickies", 
                     externalLink: "https://drive.google.com/file/d/1GFh6K9h4U-ll4hXtUDUTWUuy3ahlpVWd/view?usp=drive_link",
                     chips: ["Camisas", "Pantalones", "Overoles","Uniformes industriales"]
                   },
                   { 
                     imageSrc: "/images/mayorkpdf.webp", 
-                    imageAlt: "Catalogo MayorK COINSA", 
+                    imageAlt: "Catalogo MayorK PENTA", 
                     title: "MayorK", 
                     externalLink: "https://www.mayork.com.mx",
                     chips: ["Polos"]
                   },
                   { 
                     imageSrc: "/images/portauthoritypdf.webp", 
-                    imageAlt: "Catalogo Port Authority COINSA", 
+                    imageAlt: "Catalogo Port Authority PENTA", 
                     title: "Port Authority", 
                     externalLink: "https://www.portauthority.com",
                     chips: ["Chamarras", "Camisas", "Polos" ]
                   },
                   { 
                     imageSrc: "/images/gildanpdf.webp", 
-                    imageAlt: "Catalogo Gildan COINSA", 
+                    imageAlt: "Catalogo Gildan PENTA", 
                     title: "Gildan", 
                     externalLink: "https://www.gildan.com",
                     chips: ["Sudaderas","Playeras", "Polos" ]
                   },
                   { 
                     imageSrc: "/images/redkappdf.webp", 
-                    imageAlt: "Catalogo Red Kap COINSA", 
+                    imageAlt: "Catalogo Red Kap PENTA", 
                     title: "Red Kap", 
                     externalLink: "https://www.redkap.com",
                     chips: ["Camisas", "Pantalones", "Ropa de trabajo"]
                   },
                   { 
                     imageSrc: "/images/bibopdf.webp", 
-                    imageAlt: "Catalogo Bibo COINSA", 
+                    imageAlt: "Catalogo Bibo PENTA", 
                     title: "Bibo", 
                     externalLink: "https://drive.google.com/file/d/13K-wj7jtQaiV3oi_l3q9DT3W6Bk6_o2q/view?usp=drive_link",
                     chips: ["Polos"]
                   },
                   { 
                     imageSrc: "/images/invasionpdf.webp", 
-                    imageAlt: "Catalogo Invasion COINSA", 
+                    imageAlt: "Catalogo Invasion PENTA", 
                     title: "Invasion", 
                     externalLink: "https://www.invasion.com.mx",
                     chips: ["Gorras"]
                   },
                   { 
                     imageSrc: "/images/dkpspdf.webp", 
-                    imageAlt: "Catalogo DKPS COINSA", 
+                    imageAlt: "Catalogo DKPS PENTA", 
                     title: "DKPS", 
                     externalLink: "https://www.dkps.com.mx",
                     chips: ["Gorras", "Mochilas", "Bolsas","Termos"]
                   },
                   { 
                     imageSrc: "/images/reimerpdf.webp", 
-                    imageAlt: "Catalogo Reimer COINSA", 
+                    imageAlt: "Catalogo Reimer PENTA", 
                     title: "Reimer", 
                     externalLink: "https://www.reimer.com.mx",
                     chips: ["Chamarras"]
                   },
                   { 
                     imageSrc: "/images/yazbekpdf.webp", 
-                    imageAlt: "Catalogo Yazbek COINSA", 
+                    imageAlt: "Catalogo Yazbek PENTA", 
                     title: "Yazbek", 
                     externalLink: "https://www.yazbek.com.mx",
                     chips: ["Playeras", "Sudaderas"]
@@ -434,7 +434,7 @@ export default function Home() {
 
               <div className="flex flex-col gap-2 max-w-lg">
                 <p className="text-gray-700 text-left">
-                  En COINSA sabemos lo importante que es que cada persona se sienta cómoda y segura con lo que usa día a día.
+                  En PENTA sabemos lo importante que es que cada persona se sienta cómoda y segura con lo que usa día a día.
                 </p>
                 <p className="text-gray-700 text-left">
                   Por eso, trabajamos con las mejores marcas nacionales e internacionales, cuidando cada parte del proceso: desde la cotización hasta la entrega final.
@@ -454,7 +454,7 @@ export default function Home() {
               </Button>
             </div>
             <div className="" data-aos="fade-left" data-aos-delay="300">
-              <img src="/images/team.webp" alt="Equipo COINSA" className="max-w-full h-auto" />
+              <img src="/images/team.webp" alt="Equipo PENTA" className="max-w-full h-auto" />
             </div>
           </div>
         </section>
@@ -518,7 +518,7 @@ export default function Home() {
         {/* Contact Form Section - Fade up for text, zoom-in for form */}
         <section id="contacto" className="w-full py-16 min-h-screen flex items-center justify-center bg-[#1F5092] relative">
           <div className="absolute inset-0 w-full h-full opacity-20 pointer-events-none z-0">
-            <img src="/images/coinsa-texture.svg" alt="COINSA texture" className="w-full h-full object-cover" />
+            <img src="/images/coinsa-texture.svg" alt="PENTA texture" className="w-full h-full object-cover" />
           </div>
           <div className="container mx-auto px-4 max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-12 items-center z-10">
             <div className="flex flex-col gap-4 items-center sm:items-start" data-aos="fade-zoom-in">
@@ -696,7 +696,7 @@ export default function Home() {
             <div className="w-full md:w-1/2 flex items-end h-full bg-[#4697D8] sm:bg-transparent" data-aos="fade-zoom-in">
               <img
                 src="/images/equipo-uniforme.webp"
-                alt="Equipo uniformado COINSA"
+                alt="Equipo uniformado PENTA"
                 className="w-auto h-full object-contain max-h-[400px]"
                 style={{ maxHeight: '450px' }}
               />

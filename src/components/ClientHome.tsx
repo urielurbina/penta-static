@@ -262,7 +262,7 @@ export default function ClientHome({ pageContent }: ClientHomeProps) {
           <div className="absolute bottom-0 right-0 pointer-events-none w-full opacity-10 z-0">
             <Image
               src="/images/coinsa-texture.svg"
-              alt="COINSA texture"
+              alt="PENTA texture"
               className="w-full h-full object-contain"
               width={1200}
               height={200}
@@ -360,7 +360,7 @@ export default function ClientHome({ pageContent }: ClientHomeProps) {
           <div className="absolute bottom-0 right-0 pointer-events-none w-full opacity-50">
             <Image
               src="/images/coinsa-texture.svg"
-              alt="COINSA texture"
+              alt="PENTA texture"
               className="w-full h-full object-contain"
               width={1200}
               height={200}
@@ -378,7 +378,7 @@ export default function ClientHome({ pageContent }: ClientHomeProps) {
                   <CardPDF
                     key={index}
                     imageSrc={catalog.coverImage}
-                    imageAlt={`Catalogo ${catalog.title} COINSA`}
+                    imageAlt={`Catalogo ${catalog.title} PENTA`}
                     title={catalog.title}
                     externalLink={catalog.driveLink}
                     chips={catalog.categories}
@@ -409,7 +409,7 @@ export default function ClientHome({ pageContent }: ClientHomeProps) {
 
               <div className="flex flex-col gap-2 max-w-lg">
                 <p className="text-gray-700 text-left">
-                  En COINSA sabemos lo importante que es que cada persona se sienta cómoda y segura con lo que usa día a día.
+                  En PENTA sabemos lo importante que es que cada persona se sienta cómoda y segura con lo que usa día a día.
                 </p>
                 <p className="text-gray-700 text-left">
                   Por eso, trabajamos con las mejores marcas nacionales e internacionales, cuidando cada parte del proceso: desde la cotización hasta la entrega final.
@@ -429,7 +429,7 @@ export default function ClientHome({ pageContent }: ClientHomeProps) {
               </Button>
             </div>
             <div className="" data-aos="fade-left" data-aos-delay="300">
-              <Image src="/images/team.webp" alt="Equipo COINSA" className="max-w-full h-auto" width={800} height={800} placeholder="blur" blurDataURL="/images/blur-placeholder.webp" />
+              <Image src="/images/team.webp" alt="Equipo PENTA" className="max-w-full h-auto" width={800} height={800} placeholder="blur" blurDataURL="/images/blur-placeholder.webp" />
             </div>
           </div>
         </section>
@@ -495,7 +495,7 @@ export default function ClientHome({ pageContent }: ClientHomeProps) {
           <div className="absolute inset-0 w-full h-full opacity-20 pointer-events-none z-0">
             <Image
               src="/images/coinsa-texture.svg"
-              alt="COINSA texture"
+              alt="PENTA texture"
               className="w-full h-full object-cover"
               width={1200}
               height={200}
@@ -680,7 +680,7 @@ export default function ClientHome({ pageContent }: ClientHomeProps) {
             <div className="w-full md:w-1/2 flex items-end h-full bg-[#4697D8] sm:bg-transparent" data-aos="fade-zoom-in">
               <Image
                 src="/images/equipo-uniforme.webp"
-                alt="Equipo uniformado COINSA"
+                alt="Equipo uniformado PENTA"
                 className="w-auto h-full object-contain max-h-[400px]"
                 width={800}
                 height={800}

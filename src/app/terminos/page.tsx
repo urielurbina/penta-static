@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Términos y Condiciones | COINSA',
-  description: 'Términos y condiciones de uso de los servicios de COINSA Uniformes',
+  title: 'Términos y Condiciones | PENTA',
+  description: 'Términos y condiciones de uso de los servicios de PENTA Uniformes',
 }
 
 export default function TermsAndConditions() {
@@ -19,14 +19,14 @@ export default function TermsAndConditions() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Aceptación de los Términos</h2>
             <p className="text-gray-600 mb-4">
-              Al acceder y utilizar los servicios de COINSA Uniformes, usted acepta estar sujeto a estos términos y condiciones. Si no está de acuerdo con alguna parte de estos términos, no podrá acceder a nuestros servicios.
+              Al acceder y utilizar los servicios de PENTA Uniformes, usted acepta estar sujeto a estos términos y condiciones. Si no está de acuerdo con alguna parte de estos términos, no podrá acceder a nuestros servicios.
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">2. Descripción de los Servicios</h2>
             <p className="text-gray-600 mb-4">
-              COINSA Uniformes proporciona servicios de venta y distribución de uniformes empresariales, incluyendo:
+              PENTA Uniformes proporciona servicios de venta y distribución de uniformes empresariales, incluyendo:
             </p>
             <ul className="list-disc pl-6 text-gray-600 mb-4">
               <li>Venta de uniformes empresariales de las mejores marcas</li>
@@ -54,7 +54,7 @@ export default function TermsAndConditions() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">4. Propiedad Intelectual</h2>
             <p className="text-gray-600 mb-4">
-              Todo el contenido presente en este sitio web, incluyendo textos, gráficos, logotipos, imágenes, catálogos y software, es propiedad de COINSA Uniformes o de sus marcas asociadas y está protegido por las leyes de propiedad intelectual. Los catálogos y materiales de las marcas son utilizados con autorización.
+              Todo el contenido presente en este sitio web, incluyendo textos, gráficos, logotipos, imágenes, catálogos y software, es propiedad de PENTA Uniformes o de sus marcas asociadas y está protegido por las leyes de propiedad intelectual. Los catálogos y materiales de las marcas son utilizados con autorización.
             </p>
           </section>
 
@@ -68,7 +68,7 @@ export default function TermsAndConditions() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">6. Limitación de Responsabilidad</h2>
             <p className="text-gray-600 mb-4">
-              COINSA Uniformes no será responsable por daños indirectos, incidentales, especiales o consecuentes que resulten del uso o la imposibilidad de usar nuestros servicios. Nos comprometemos a proporcionar información precisa sobre nuestros productos, pero no podemos garantizar la disponibilidad inmediata de todos los artículos mostrados en los catálogos.
+              PENTA Uniformes no será responsable por daños indirectos, incidentales, especiales o consecuentes que resulten del uso o la imposibilidad de usar nuestros servicios. Nos comprometemos a proporcionar información precisa sobre nuestros productos, pero no podemos garantizar la disponibilidad inmediata de todos los artículos mostrados en los catálogos.
             </p>
           </section>
 

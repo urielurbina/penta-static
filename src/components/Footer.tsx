@@ -83,7 +83,7 @@ export default function Footer() {
         </div>
         {/* Legal y derechos */}
         <div className="flex flex-col md:flex-row justify-between items-center mt-6 gap-2 text-sm text-white/80">
-          <span className="font-acumin-regular text-sm">© {new Date().getFullYear()} COINSA. Todos los derechos reservados.</span>
+          <span className="font-acumin-regular text-sm">© {new Date().getFullYear()} PENTA. Todos los derechos reservados.</span>
           <div className="flex gap-4">
             <a href="#" className="hover:underline font-acumin-regular text-sm">Aviso de Privacidad</a>
             <a href="#" className="hover:underline font-acumin-regular text-sm">Términos y Condiciones</a>
