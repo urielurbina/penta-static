@@ -1,0 +1,93 @@
+@import "tailwindcss";
+:root {
+  /* Colors */
+  --color-primary: #003664;
+  --color-secondary: #5492C3;
+  --color-tertiary: #1A4F96;
+  --color-background: #ffffff;
+  --color-foreground: #171717;
+  
+  /* Typography */
+  --font-acumin: acumin-pro, sans-serif;
+  --font-acumin-condensed: acumin-pro-condensed, sans-serif;
+  
+  /* Spacing */
+  --section-spacing: 100px;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #0a0a0a;
+    --color-foreground: #ededed;
+  }
+}
+
+
+/* Utility Classes */
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+
+.bg-tertiary {
+  background-color: var(--color-tertiary);
+}
+
+.section-spacing {
+  padding-top: var(--section-spacing);
+  padding-bottom: var(--section-spacing);
+}
+
+.containers {
+  max-width: 1200px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+}
+
+/* Font Weight Utilities */
+.font-acumin-regular {
+  font-family: var(--font-acumin);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-acumin-medium {
+  font-family: var(--font-acumin);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-acumin-semibold {
+  font-family: var(--font-acumin);
+  font-weight: 600;
+  font-style: normal;
+}
+
+.font-acumin-bold {
+  font-family: var(--font-acumin);
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-acumin-condensed-semibold {
+  font-family: var(--font-acumin-condensed);
+  font-weight: 600;
+  font-style: normal;
+}
+
+.font-acumin-condensed-bold {
+  font-family: var(--font-acumin-condensed);
+  font-weight: 700;
+  font-style: normal;
+}
