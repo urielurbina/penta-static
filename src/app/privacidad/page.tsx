@@ -109,7 +109,7 @@ export default function PrivacyPolicy() {
               Para ejercer sus derechos ARCO o para cualquier consulta sobre este aviso de privacidad, puede contactarnos a través de:
             </p>
             <p className="text-gray-600">
-              Correo electrónico: contacto@coinsa.com.mx<br />
+              Correo electrónico: contacto@pentamx.com<br />
               Teléfono: (614) 423-4275<br />
               WhatsApp: (614) 423-4275<br />
               Dirección: Av. Mirador 7514-A Col. Campestre Washington, Chihuahua, Chih. C.P. 31238

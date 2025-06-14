@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row md:justify-between md:items-start gap-4 md:gap-0 pb-8 border-b border-white/20">
           {/* Logo y slogan */}
           <div className="flex flex-col items-center md:items-start md:w-1/ mb-8 md:mb-0 p-4">
-            <Image src="/images/coinsa-blanco.svg" alt="Coinsa Logo" width={180} height={180} className="mb-2" />
+            <Image src="/images/penta-blanco.svg" alt="Penta Logo" width={180} height={180} className="mb-2" />
           </div>
           {/* Contacto */}
           {/* <div className="flex flex-col items-center md:items-start md:w-1/4 mb-8 md:mb-0">
@@ -17,9 +17,19 @@ export default function Footer() {
             </div>
             <div className="flex items-center gap-2">
               
-              <span className="font-acumin-regular text-base break-all">contacto@coinsauniformes.com</span>
+              <span className="font-acumin-regular text-base break-all">contacto@pentauniformes.com</span>
             </div>
           </div> */}
+
+          {/* Sucursal Monterrey */}
+          <div className="flex flex-col items-center md:items-start md:w-1/4 mb-8 md:mb-0">
+            <h5 className="text-2xl font-acumin-condensed-bold uppercase mb-2">SUCURSAL MONTERREY</h5>
+            <div className="mb-2">
+              <p className="font-acumin-regular text-base">Av. Simón Bolívar 1438</p>
+              <p className="font-acumin-regular text-base">Mitras Centro</p>
+              <p className="font-acumin-regular text-base">Monterrey, N.L. CP 64460</p>
+            </div>
+            
           {/* Sucursal Chihuahua */}
           <div className="flex flex-col items-center md:items-start md:w-1/4 mb-8 md:mb-0">
             <h5 className="text-2xl font-acumin-condensed-bold uppercase mb-2">SUCURSAL CHIHUAHUA</h5>
@@ -60,14 +70,7 @@ export default function Footer() {
               <span className="font-acumin-regular text-base">Tel. (656) 396-0879 y 610-7278</span>
             </div>
           </div>
-          {/* Sucursal Monterrey */}
-          <div className="flex flex-col items-center md:items-start md:w-1/4 mb-8 md:mb-0">
-            <h5 className="text-2xl font-acumin-condensed-bold uppercase mb-2">SUCURSAL MONTERREY</h5>
-            <div className="mb-2">
-              <p className="font-acumin-regular text-base">Av. Simón Bolívar 1438</p>
-              <p className="font-acumin-regular text-base">Mitras Centro</p>
-              <p className="font-acumin-regular text-base">Monterrey, N.L. CP 64460</p>
-            </div>
+          
             <a 
               href="https://maps.app.goo.gl/BWJU3iPdrKUmBY2r9" 
               target="_blank" 

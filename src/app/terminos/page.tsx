@@ -92,7 +92,7 @@ export default function TermsAndConditions() {
               Para cualquier consulta sobre estos términos y condiciones, puede contactarnos a través de:
             </p>
             <p className="text-gray-600">
-              Correo electrónico: contacto@coinsa.com.mx<br />
+              Correo electrónico: contacto@pentamx.com<br />
               Teléfono: (614) 423-4275<br />
               WhatsApp: (614) 423-4275
             </p>

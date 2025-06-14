@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'es_MX',
-    url: 'https://coinsauniformes.com/',
+    url: 'https://pentamx.com/',
     siteName: 'PENTA Uniformes',
     title: 'PENTA Uniformes - Catálogos y Cotizaciones',
     description: 'Catálogos de uniformes empresariales de las mejores marcas. Cotiza uniformes para tu empresa con más de 20 años de experiencia en el mercado.',
@@ -47,8 +47,8 @@ export const metadata: Metadata = {
     title: 'PENTA Uniformes - Catálogos y Cotizaciones',
     description: 'Catálogos de uniformes empresariales de las mejores marcas. Cotiza uniformes para tu empresa con más de 20 años de experiencia en el mercado.',
     images: ['/og-image.jpg'],
-    creator: '@coinsa',
-    site: '@coinsa',
+    creator: '@penta',
+    site: '@penta',
   },
   icons: {
     icon: [
