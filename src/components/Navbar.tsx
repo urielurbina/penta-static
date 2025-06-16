@@ -17,8 +17,8 @@ export default function Navbar() {
             Chihuahua: <a href="tel:+526144234275" className=" ml-1 underline hover:text-[#4cb6ef] transition">(614) 423-4275</a>
           </div>
           <div className="flex-1 flex items-center justify-center py-2">
-            Cd. Juárez: <a href="tel:+526563960879" className="ml-1 underline hover:text-[#4cb6ef] transition">(656) 396-0879</a>
-          </div>
+            Cd. Juárez: <a href="tel:+526563973890" className="ml-1 underline hover:text-[#4cb6ef] transition">(656) 397-3890</a>
+          </div> 
           
         </div>
       </div>
