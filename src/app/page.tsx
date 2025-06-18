@@ -327,77 +327,88 @@ export default function Home() {
                     imageAlt: "Catalogo BigBang PENTA", 
                     title: "BigBang", 
                     externalLink: "https://drive.google.com/file/d/15ZsDmvg_ltUQsTUp8ulo7h81pQ5DuDi3/view?usp=drive_link",
-                    chips: ["Camisas", "Pantalones", "Alta Visibilidad"]
+                    chips: ["Camisas", "Pantalones", "Alta Visibilidad"],
+                    disabled: false
                   },
                   { 
                     imageSrc: "/images/dickiespdf.webp", 
                     imageAlt: "Catalogo Dickies PENTA", 
                     title: "Dickies", 
                     externalLink: "https://drive.google.com/file/d/1GFh6K9h4U-ll4hXtUDUTWUuy3ahlpVWd/view?usp=drive_link",
-                    chips: ["Camisas", "Pantalones", "Overoles","Uniformes industriales"]
+                    chips: ["Camisas", "Pantalones", "Overoles","Uniformes industriales"],
+                    disabled: false
                   },
                   { 
                     imageSrc: "/images/mayorkpdf.webp", 
                     imageAlt: "Catalogo MayorK PENTA", 
                     title: "MayorK", 
                     externalLink: "https://www.mayork.com.mx",
-                    chips: ["Polos"]
+                    chips: ["Polos"],
+                    disabled: true
                   },
                   { 
                     imageSrc: "/images/portauthoritypdf.webp", 
                     imageAlt: "Catalogo Port Authority PENTA", 
                     title: "Port Authority", 
                     externalLink: "https://www.portauthority.com",
-                    chips: ["Chamarras", "Camisas", "Polos" ]
+                    chips: ["Chamarras", "Camisas", "Polos" ],
+                    disabled: true
                   },
                   { 
                     imageSrc: "/images/gildanpdf.webp", 
                     imageAlt: "Catalogo Gildan PENTA", 
                     title: "Gildan", 
                     externalLink: "https://www.gildan.com",
-                    chips: ["Sudaderas","Playeras", "Polos" ]
+                    chips: ["Sudaderas","Playeras", "Polos" ],
+                    disabled: true
                   },
                   { 
                     imageSrc: "/images/redkappdf.webp", 
                     imageAlt: "Catalogo Red Kap PENTA", 
                     title: "Red Kap", 
                     externalLink: "https://www.redkap.com",
-                    chips: ["Camisas", "Pantalones", "Ropa de trabajo"]
+                    chips: ["Camisas", "Pantalones", "Ropa de trabajo"],
+                    disabled: true
                   },
                   { 
                     imageSrc: "/images/bibopdf.webp", 
                     imageAlt: "Catalogo Bibo PENTA", 
                     title: "Bibo", 
                     externalLink: "https://drive.google.com/file/d/13K-wj7jtQaiV3oi_l3q9DT3W6Bk6_o2q/view?usp=drive_link",
-                    chips: ["Polos"]
+                    chips: ["Polos"],
+                    disabled: false
                   },
                   { 
                     imageSrc: "/images/invasionpdf.webp", 
                     imageAlt: "Catalogo Invasion PENTA", 
                     title: "Invasion", 
                     externalLink: "https://www.invasion.com.mx",
-                    chips: ["Gorras"]
+                    chips: ["Gorras"],
+                    disabled: true
                   },
                   { 
                     imageSrc: "/images/dkpspdf.webp", 
                     imageAlt: "Catalogo DKPS PENTA", 
                     title: "DKPS", 
                     externalLink: "https://www.dkps.com.mx",
-                    chips: ["Gorras", "Mochilas", "Bolsas","Termos"]
+                    chips: ["Gorras", "Mochilas", "Bolsas","Termos"],
+                    disabled: true
                   },
                   { 
                     imageSrc: "/images/reimerpdf.webp", 
                     imageAlt: "Catalogo Reimer PENTA", 
                     title: "Reimer", 
                     externalLink: "https://www.reimer.com.mx",
-                    chips: ["Chamarras"]
+                    chips: ["Chamarras"],
+                    disabled: true
                   },
                   { 
                     imageSrc: "/images/yazbekpdf.webp", 
                     imageAlt: "Catalogo Yazbek PENTA", 
                     title: "Yazbek", 
                     externalLink: "https://www.yazbek.com.mx",
-                    chips: ["Playeras", "Sudaderas"]
+                    chips: ["Playeras", "Sudaderas"],
+                    disabled: true
                   }
                 ].map((card, index) => (
                   <CardPDF
@@ -407,6 +418,7 @@ export default function Home() {
                     title={card.title}
                     externalLink={card.externalLink}
                     chips={card.chips}
+                    disabled={card.disabled}
                     data-aos="zoom-in"
                     data-aos-delay={index * 150}
                   />

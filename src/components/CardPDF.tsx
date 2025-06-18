@@ -6,6 +6,7 @@ interface CardPDFProps {
   externalLink: string;
   title?: string;
   chips?: string[];
+  disabled?: boolean;
   'data-aos'?: string;
   'data-aos-delay'?: number;
 }
@@ -16,6 +17,7 @@ export default function CardPDF({
   externalLink, 
   title,
   chips = [],
+  disabled = false,
   'data-aos': dataAos, 
   'data-aos-delay': dataAosDelay 
 }: CardPDFProps) {
@@ -25,7 +27,7 @@ export default function CardPDF({
         <img 
           src={imageSrc} 
           alt={imageAlt} 
-          className="aspect-square sm:aspect-square object-cover rounded-sm w-full" 
+          className="aspect-square sm:aspect-square object-cover rounded-sm w-full"
         />
         {title && (
           <h3 className="text-lg font-acumin-semibold text-center mt-2 mb-1 text-gray-700">{title}</h3>
@@ -43,18 +45,30 @@ export default function CardPDF({
           </div>
         )}
       </div>
-      <Button 
-        href={externalLink} 
-        target="_blank"
-        rel="noopener noreferrer"
-        variant="primary"
-        size="sm" 
-        fullWidth
-        icon={<img src="/images/external.svg" alt="External link" className="w-4 h-4" />}
-        iconPosition="right"
-      >
-        VER CATÁLOGO
-      </Button>
+      {disabled ? (
+        <Button 
+          variant="secondary"
+          size="sm" 
+          fullWidth
+          disabled
+          className="opacity-60 cursor-not-allowed"
+        >
+          DISPONIBLE EN TIENDA
+        </Button>
+      ) : (
+        <Button 
+          href={externalLink} 
+          target="_blank"
+          rel="noopener noreferrer"
+          variant="primary"
+          size="sm" 
+          fullWidth
+          icon={<img src="/images/external.svg" alt="External link" className="w-4 h-4" />}
+          iconPosition="right"
+        >
+          VER CATÁLOGO
+        </Button>
+      )}
     </div>
   );
 } 
